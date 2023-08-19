@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(225, 255, 196);
+}
+.container{
+    width: 30rem;
+    margin: 2rem auto;
+}
+.container .title{
+    text-align: center;
+}
+.container .form{
+    background-color: white;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.form input{
+    flex: 1;
+    padding: 1;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.form .button{
+    padding: 0.7rem;
+    background-color: darkcyan;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.lists .todo{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.todo .span{
+    cursor: pointer;
+}
